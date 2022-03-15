@@ -569,7 +569,7 @@ async def play(_, message: Message):
 
         loop = asyncio.get_event_loop()
         x = await loop.run_in_executor(None, youtube.download, url, my_hook)
-        file_path = await oda.tgcalls.convert(x)
+        file_path = await PachirisuMusic.tgcalls.convert(x)
 
     if await is_active_chat(message.chat.id):
         position = await queues.put(message.chat.id, file=file_path)
