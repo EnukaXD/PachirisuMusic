@@ -3,7 +3,7 @@
 ### A bot that can play music on telegram group's voice call
 
 <p align="center">
-  <img src="https://telegra.ph/file/e8da463b841d344854539.png">
+  <img src="https://telegra.ph/file/4d92956ee94763dc48f8a.jpg">
 </p>
 
 <h3>Requirements 📝</h3>
@@ -40,7 +40,7 @@
 
 ### Deploy To Heroku</h4>
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/UserLazy/Oda-Music/tree/san)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/ThePachirisu/PachirisuMusic/tree/main)
 
 + Recomended use Europe server for deploy on Heroku
 
@@ -52,8 +52,8 @@
 **NOTE**: Select P (Pyrogram) for pyrogram string
 
 ### Credits
-- [UserLazy](https://github.com/UserLazy): Dev
+- [Pachirisu](https://github.com/ThePachirisu): Dev
 - [Laky](https://github.com/Laky-64) & [Andrew](https://github.com/AndrewLaneX): PyTgCalls
 - [CallMusic](https://github.com/Callsmusic): CallMusic
 - [WilliamButcherBot](https://github.com/TheHamkerCat/WilliamButcherBot): Broadcast 
-- [Oda Nobunaga](https://t.me/OdaRobot): Bot
+- [PachirisuBot](https://t.me/PachirisuXbot): Bot
