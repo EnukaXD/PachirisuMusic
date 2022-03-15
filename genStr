@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+# Copyright (C) 2020-2021 by ThePachirisu@Github, < https://github.com/ThePachirisu >.
+#
+# This file is part of < https://github.com/ThePachirisu/PachirisuMusic > project,
+# and is released under the "GNU v3.0 License Agreement".
+# Please see < https://github.com/ThePachirisu/PachirisuMusic/blob/main/LICENSE >
+#
+# All rights reserved.
+
+exec python3 tools/genStrSession.py
