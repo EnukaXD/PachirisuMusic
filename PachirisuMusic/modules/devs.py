@@ -10,7 +10,11 @@ from pyrogram.types import InlineKeyboardButton, InlineKeyboardMarkup, Message
 
 from PachirisuMusic import app
 from PachirisuMusic.config import OWNER_ID, BOT_NAME
-from PachirisuMusic.database.chats import blacklist_chat, blacklisted_chats, whitelist_chat
+from PachirisuMusic.database.chats import (
+    blacklist_chat,
+    blacklisted_chats,
+    whitelist_chat,
+)
 from PachirisuMusic.utils.decorators import sudo_users_only
 from PachirisuMusic.utils.filters import command
 from PachirisuMusic.modules import check_heroku
