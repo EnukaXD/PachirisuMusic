@@ -50,7 +50,7 @@ Client(
     API_ID,
     API_HASH,
     bot_token=BOT_TOKEN,
-    plugins={"root": "oda.modules"},
+    plugins={"root": "PachirisuMusic.modules"},
 ).start()
 
 run()
