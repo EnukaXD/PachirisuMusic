@@ -7,7 +7,11 @@ from PachirisuMusic import app
 from PachirisuMusic.config import SUDO_USERS
 from PachirisuMusic.utils.filters import command
 from PachirisuMusic.tgcalls import client as USER
-from PachirisuMusic.database.chats import add_served_chat, blacklisted_chats, get_served_chats
+from PachirisuMusic.database.chats import (
+    add_served_chat,
+    blacklisted_chats,
+    get_served_chats,
+)
 
 chat_watcher_group = 10
 
