@@ -322,7 +322,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url=f"t.me/{SUPPORT}"),
+                    InlineKeyboardButton("🌺Support", url=f"t.me/{SUPPORT}"),
                     InlineKeyboardButton("📡 Updates", url=f"t.me/{UPDATE}"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
@@ -360,7 +360,7 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
-                        InlineKeyboardButton("🚨 Support", url=f"t.me/{SUPPORT}"),
+                        InlineKeyboardButton("🌺 Support", url=f"t.me/{SUPPORT}"),
                         InlineKeyboardButton("📡 Updates", url=f"t.me/{UPDATE}"),
                     ],
                     [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
@@ -489,7 +489,7 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton("🚨 Support", url=f"t.me/{SUPPORT}"),
+                    InlineKeyboardButton("🌺 Support", url=f"t.me/{SUPPORT}"),
                     InlineKeyboardButton("📡 Updates", url=f"t.me/{UPDATE}"),
                 ],
                 [InlineKeyboardButton(text="🗑 Close", callback_data="cls")],
