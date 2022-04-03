@@ -68,7 +68,7 @@ async def rem(USER, message):
     try:
         await USER.send_message(
             message.chat.id,
-            "✅ __Assistant successfully left chat__\n\n Join @UserLazyXBot",
+            "✅ __Assistant successfully left chat__\n\n Join @PachirisuUpdates",
         )
         await USER.leave_chat(message.chat.id)
     except:
