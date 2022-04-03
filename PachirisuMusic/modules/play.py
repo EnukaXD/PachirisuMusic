@@ -33,7 +33,7 @@ from pyrogram.errors import UserAlreadyParticipant, UserNotParticipant
 
 from PachirisuMusic.tgcalls import calls, queues
 from PachirisuMusic.tgcalls.calls import client as ASS_ACC
-from oda.database.queue import (
+from PachirisuMusic.database.queue import (
     get_active_chats,
     is_active_chat,
     add_active_chat,
@@ -42,10 +42,10 @@ from oda.database.queue import (
     is_music_playing,
     music_off,
 )
-from oda import app
-import oda.tgcalls
-from oda.tgcalls import youtube
-from oda.config import (
+from PachirisuMusic import app
+import PachirisuMusic.tgcalls
+from PachirisuMusic.tgcalls import youtube
+from PachirisuMusic.config import (
     DURATION_LIMIT,
     que,
     SUDO_USERS,
@@ -58,12 +58,12 @@ from oda.config import (
     UPDATE,
     BOT_USERNAME,
 )
-from oda.utils.filters import command
-from oda.utils.decorators import errors, sudo_users_only
-from oda.utils.administrator import adminsOnly
-from oda.utils.errors import DurationLimitError
-from oda.utils.gets import get_url, get_file_name
-from oda.modules.admins import member_permissions
+from PachirisuMusic.utils.filters import command
+from PachirisuMusic.utils.decorators import errors, sudo_users_only
+from PachirisuMusic.utils.administrator import adminsOnly
+from PachirisuMusic.utils.errors import DurationLimitError
+from PachirisuMusic.utils.gets import get_url, get_file_name
+from PachirisuMusic.modules.admins import member_permissions
 from tools.chattitle import CHAT_TITLE
 from tools.admins import get_administrators
 from tools.channelmusic import get_chat_id
@@ -458,7 +458,7 @@ async def play(_, message: Message):
     else:
         if len(message.command) < 2:
             return await lel.edit(
-                "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @UserLazyXBot**"
+                "🧐 **Song not found! Try searching with the correct title\nExample » /play In The End\n\nChannel : @PachirisuUpdates**"
             )
         await lel.edit("🔎 **Finding the song...**")
         query = message.text.split(None, 1)[1]
